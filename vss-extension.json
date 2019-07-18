@@ -10,8 +10,8 @@
         "Azure Boards"
     ],
     "tags": [
-        "WSJF",
-        "SAFe"
+        "copy",
+        "decide"
     ],
     "targets": [
         {
@@ -38,7 +38,7 @@
                 "ms.vss-web.collection-admin-hub-group"
             ],
             "properties": {
-                "name": "WSJF",
+                "name": "Decide field value",
                 "uri": "wsjfSettings.html"
             }
         },
@@ -50,7 +50,7 @@
                 "ms.vss-work-web.work-item-context-menu"
             ],
             "properties": {
-                "text": "Recalculate WSJF values",
+                "text": "Recalculate field values",
                 "title": "Update the WSJF value for the selected work items",
                 "icon": "images/icon-refresh.png",
                 "groupId": "SAFe",
