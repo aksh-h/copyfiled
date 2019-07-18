@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script src="lib/VSS.SDK.min.js"></script>
+
+    <link href="css/wsjfSettings.css" rel="stylesheet"></link>
+</head>
+<body>
+    <script type="text/javascript">
+        // Initialize framework 
+        VSS.init({
+            explicitNotifyLoaded: true,
+            usePlatformScripts: true
+        });
+
+        // Load main entry point for extension
+        VSS.require(["scripts/wsjfSettings"], function (s) {
+            var settings = new s.Settings();
+            settings.initialize();
+        });
+    </script>
+
+    <div class="hub-view">
+        <div class="hub-title">Settings</div>
+
+        <div class="hub-content" />
+    </div>
+</body>
+</html>

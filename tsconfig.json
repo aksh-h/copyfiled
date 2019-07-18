@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "jsx": "react",
+        "outDir": "dist",
+        "types": [
+            "vss-web-extension-sdk"
+        ]
+    },   
+    "include": [
+        "src/**/*.tsx"
+    ]    
+}

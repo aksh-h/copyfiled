@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "devDependencies": {
+    "tfx-cli": "^0.6.3",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "package": "tfx extension create"
+  },
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.141.0"
+  }
+}
